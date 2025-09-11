@@ -46,7 +46,7 @@ nav ul {
 
     display: flex;
     align-items: center;
-    
+
 
 }
 
@@ -67,4 +67,45 @@ nav ul li a {
 
     text-decoration: none;
     font-size: 25px;
+}
+
+
+
+/* banner style */
+
+.banner_content {
+
+    max-width: 580px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+
+}
+
+.banner_greetings {
+
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner_tittle {
+
+    font-size: 85px;
+    font-weight: bold;
+
+}
+
+.banner_description {
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.banner_pic {
+
+    width: 580px;
 }
