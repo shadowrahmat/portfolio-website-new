@@ -39,6 +39,7 @@ header {
   border-radius: 4px;
   border: none;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .section_title {
@@ -252,5 +253,26 @@ footer {
   flex-direction: column;
   gap: 20px;
 }
+.banner {
+  flex-direction: column;
+  margin: 20px;
+}
+header {
+  background-image: none;
+}
+.banner_pic {
+  width: 100%;
+}
+nav{
+  flex-direction: column;
+  margin: 0;
+}
+nav > ul {
+  flex-direction: column;
+  gap: 20px;
+}
+.btn_primary {
+  font-size: 20px;
+} 
 
 }
