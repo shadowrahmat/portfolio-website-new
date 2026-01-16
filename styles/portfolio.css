@@ -223,14 +223,34 @@ footer {
 /* Responsive design start */
 
 .hide {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 576px) {
+  .skills_container {
+    flex-direction: column;
+  }
+  .resume_container {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .footer_column {
+    width: 100%;
+  }
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: calc(100% - 40px);
+  }
+  .about{
+    padding: 20px 10px;
+  }
+  .about_items {
+  flex-direction: column;
+  gap: 20px;
+}
 
-    .skills_container {
-
-        flex-direction: column;
-    }
-    
 }
